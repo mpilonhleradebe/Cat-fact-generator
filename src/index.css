@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: black;
+}
+
+.fact-button {
+  display: flexbox;
+  justify-content: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.fact-button button{
+  width: 250px;
+  padding: 5px;
+  font-size: 2rem;
+  background-color: darkolivegreen;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.fact-button p {
+  display: flexbox;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.fact-button button:hover {
+  transform:scale(1.05)
+}
+
